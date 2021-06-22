@@ -3,17 +3,18 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Confer - Consulting Website Template Free Download</title>
+    <title>THU IM</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Consulting Website Template Free Download" name="keywords">
     <meta content="Consulting Website Template Free Download" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
-
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- CSS Libraries -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -40,6 +41,32 @@
                 <div class="navbar-nav ml-auto">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
                     <!-- <a href="about.html" class="nav-item nav-link">金融</a> -->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">工作/實習</a>
+                        <div class="dropdown-menu">
+                            <h6 class="dropdown-headr">資訊</h6>
+                            <a href="blog.html" class="dropdown-item">勤業眾信 - 鴻儒</a>
+                            <a href="blog.html" class="dropdown-item">IBM/多奇數位(實習) - 洋洋</a>
+                            <a href="blog.html" class="dropdown-item">蝦皮購物 - Sis趙</a>
+                            <a href="blog.html" class="dropdown-item">今網寬頻 - 低調翔仔z</a>
+                            <h6 class="dropdown-headr">服務</h6>
+                            <a href="blog.html" class="dropdown-item">TKS手作 - 孟軒</a>
+                            <a href="blog.html" class="dropdown-item">1111人力銀行(實習) - 冠霆</a>
+                            <a href="blog.html" class="dropdown-item disabled">無盡紋身 - 阿牛</a>
+                            <h6 class="dropdown-headr">金融</h6>
+                            <a href="blog.html" class="dropdown-item">XX - 誠君</a>
+                            <a href="index2.html" class="dropdown-item">玉山金控 - 冠霆</a>
+                            <a href="blog.html" class="dropdown-item">國泰人壽 - 洋洋(實習)</a>
+                            <h6 class="dropdown-headr">公家</h6>
+                            <a href="blog.html" class="dropdown-item">法務部 - 阿筑</a>
+                            <a href="blog.html" class="dropdown-item">北市政府 - 江探花</a>
+                            <h6 class="dropdown-headr">啃老</h6>
+                            <a href="index2.html" class="dropdown-item">淡水區 - 冠霆</a>
+
+
+
+                        </div>
+                    </div>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">證照/高普考</a>
                         <div class="dropdown-menu">
@@ -87,32 +114,7 @@
 
                         </div>
                     </div>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">工作/實習</a>
-                        <div class="dropdown-menu">
-                            <h6 class="dropdown-headr">資訊</h6>
-                            <a href="blog.html" class="dropdown-item">勤業眾信 - 鴻儒</a>
-                            <a href="blog.html" class="dropdown-item">IBM/多奇數位(實習) - 洋洋</a>
-                            <a href="blog.html" class="dropdown-item">蝦皮購物 - Sis趙</a>
-                            <a href="blog.html" class="dropdown-item">今網寬頻 - 低調翔仔z</a>
-                            <h6 class="dropdown-headr">服務</h6>
-                            <a href="blog.html" class="dropdown-item">TKS手作 - 孟軒</a>
-                            <a href="blog.html" class="dropdown-item">1111人力銀行(實習) - 冠霆</a>
-                            <a href="blog.html" class="dropdown-item disabled">無盡紋身 - 阿牛</a>
-                            <h6 class="dropdown-headr">金融</h6>
-                            <a href="blog.html" class="dropdown-item">XX - 誠君</a>
-                            <a href="index2.html" class="dropdown-item">玉山金控 - 冠霆</a>
-                            <a href="blog.html" class="dropdown-item">國泰人壽 - 洋洋(實習)</a>
-                            <h6 class="dropdown-headr">公家</h6>
-                            <a href="blog.html" class="dropdown-item">法務部 - 阿筑</a>
-                            <a href="blog.html" class="dropdown-item">北市政府 - 江探花</a>
-                            <h6 class="dropdown-headr">啃老</h6>
-                            <a href="index2.html" class="dropdown-item">淡水區 - 冠霆</a>
 
-
-
-                        </div>
-                    </div>
                     <a href="#contact2" class="nav-item nav-link">聯絡方式</a>
                 </div>
             </div>
@@ -625,9 +627,14 @@
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js "></script>
         <script src="mail/contact.js "></script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js "></script>
+
+
+
 </body>
 
 </html>
