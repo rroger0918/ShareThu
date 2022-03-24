@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'ShareThu'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_77BD5306FB1D4324A51A14EBFD764460 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_770AB4290F0F4BC69E459B235907E5FE }}
           package: .
